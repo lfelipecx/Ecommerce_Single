@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Kumbh Sans',sans-serif;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;/*separa as divs left e right*/
+    align-items: center;/*alinhar os itens no centro*/
+    padding: 0 5%;
+    height: 85px;
+}
+
+.left-side-menu{
+    display: flex;
+    gap: 50px;/*espaçamento entre filhos na classe*/
+}
+
+nav ul li{
+    display: inline-block;
+    margin-right: 30px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: hsl(219, 9%, 45%);
+}
+
+.right-side-menu{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.icon-avatar img{
+    width: 36px;
+}
+
+.line{
+    height: 1px;
+    background-color: #ddd;
+    width: 90%;
+    align-self: center;
+}
